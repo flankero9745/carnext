@@ -1,0 +1,8 @@
+.vertical-centered-column {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 314px;
+}

@@ -1,0 +1,49 @@
+.blurred-background-with-text {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 30px;
+  padding-right: 48px;
+  padding-left: 434px;
+  margin-top: -29px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+.vehicle-efficiency-info {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 31.78%;
+  padding: 0;
+  margin: 0;
+  font: 400 12.5px Inter, sans-serif;
+  color: #151515;
+}
+.fuel-efficiency-info-block {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 62.86%;
+  padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  font: 400 12.5px Inter, sans-serif;
+  color: #151515;
+}
+.data-visualization-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 5.36%;
+  padding-left: 15px;
+}
+.svg-container6 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+}

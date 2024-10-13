@@ -1,0 +1,25 @@
+.center-content-with-padding {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 12px;
+  padding-left: 12px;
+  background: white;
+}
+.svg-container {
+  display: flex;
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+}
+.primary-text-container {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 1px;
+  font: 400 12.5px Inter, sans-serif;
+  color: #414042;
+}

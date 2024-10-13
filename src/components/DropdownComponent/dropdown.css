@@ -1,0 +1,32 @@
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #4caf50; /* Цвет кнопки */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Отступы */
+  border: none; /* Убрать рамку */
+  cursor: pointer; /* Указатель курсора */
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white; /* Цвет фона выпадающего меню */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень */
+  z-index: 1; /* Обеспечить наложение над другими элементами */
+  list-style: none; /* Убрать маркеры списка */
+  padding: 0; /* Убрать отступы */
+  margin: 0; /* Убрать внешние отступы */
+}
+
+.dropdown-item {
+  padding: 12px 16px; /* Отступы для элементов меню */
+  cursor: pointer; /* Указатель курсора */
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1; /* Цвет при наведении */
+}
